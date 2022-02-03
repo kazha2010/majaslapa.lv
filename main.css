@@ -4,3 +4,8 @@ body{
     color: rgb(0, 0, 0);
     content: "Āboli.lv";
 }
+h1.pirmais {
+    text-align: center;
+    font-size: 60px;
+    font-family: Verdana;
+}
