@@ -1,11 +1,18 @@
 body{
     background-color: rgb(255, 255, 255);
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    content: "Āboli.lv";
 }
 h1.pirmais {
     text-align: center;
     font-size: 60px;
     font-family: Verdana;
+}
+h2.pirmais {
+    text-align: center;
+    font-size: 25px;
+    font-family: Helvetica;
+}
+h3.pirmais {
+    text-align: center;
+    font-size: 25px;
+    font-family: Helvetica;
 }
