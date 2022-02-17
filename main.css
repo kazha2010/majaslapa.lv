@@ -10,11 +10,17 @@ h2.pirmais {
     text-align: center;
     font-size: 25px;
     font-family: Helvetica;
+    text-decoration: none; 
+   background-color: none;
+   color:rgb(0, 0, 0);
 }
 h3.pirmais {
     text-align: center;
     font-size: 25px;
     font-family: Helvetica;
+    text-decoration: none; 
+   background-color: none;
+   color:rgb(0, 0, 0);
 }
 p.pirmais {
     text-align: center;
