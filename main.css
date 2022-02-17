@@ -16,18 +16,19 @@ h3.pirmais {
     font-size: 25px;
     font-family: Helvetica;
 }
-div {
-    display:block;
-    width:10px;
-    margin:30px;
-}
-img {
-    float:left;
-    padding:10px;
-}
-
-.border-right {
-    background-image: url("http://imageshack.us/a/img641/9127/borderbottomt.png"), url("http://imageshack.us/a/img825/9262/borderrighto.png");
-    background-position: center bottom, center right;
-    background-repeat:no-repeat;
-}
+#trending {
+    margin-top: 100px;
+  }
+  
+  .review1 {
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    display: inline-block;
+    margin: 15px;
+  }
+  
+  .rowContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
