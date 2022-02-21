@@ -44,3 +44,19 @@ p.pirmais {
     align-items: center;
     justify-content: center;
   }
+
+  #container {
+    left: 0px;
+    top: -100px;
+    height: calc(100vh + 100px);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #animate{
+    margin: 0 auto;
+    width: 20px;
+    overflow: visible;
+    position: relative;
+  }
+  
