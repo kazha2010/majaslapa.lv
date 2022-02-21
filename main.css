@@ -10,37 +10,24 @@ h2.pirmais {
     text-align: center;
     font-size: 25px;
     font-family: Helvetica;
-    text-decoration: none; 
-   background-color: none;
-   color:rgb(0, 0, 0);
 }
 h3.pirmais {
     text-align: center;
     font-size: 25px;
     font-family: Helvetica;
-    text-decoration: none; 
-   background-color: none;
-   color:rgb(0, 0, 0);
 }
-p.pirmais {
-    text-align: center;
-    font-size: 24px;
-    font-family: Helvetica;
-    font-weight: bold;
+div {
+    display:block;
+    width:10px;
+    margin:30px;
 }
-#trending {
-    margin-top: 100px;
-  }
-  
-  .review1 {
-    border: 2px solid rgb(141, 140, 140);
-    text-align: center;
-    display: inline-block;
-    margin: 15px;
-  }
-  
-  .rowContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+img {
+    float:left;
+    padding:10px;
+}
+
+.border-right {
+    background-image: url("http://imageshack.us/a/img641/9127/borderbottomt.png"), url("http://imageshack.us/a/img825/9262/borderrighto.png");
+    background-position: center bottom, center right;
+    background-repeat:no-repeat;
+}
