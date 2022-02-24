@@ -29,34 +29,18 @@ p.pirmais {
     font-weight: bold;
 }
 #trending {
-    margin-top: 100px;
-  }
-  
-  .review1 {
-    border: 2px solid rgb(141, 140, 140);
-    text-align: center;
-    display: inline-block;
-    margin: 15px;
-  }
-  
-  .rowContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  margin-top: 100px;
+}
 
-  #container {
-    left: 0px;
-    top: -100px;
-    height: calc(100vh + 100px);
-    overflow: hidden;
-    position: relative;
-  }
-  
-  #animate{
-    margin: 0 auto;
-    width: 20px;
-    overflow: visible;
-    position: relative;
-  }
-  
+.review1 {
+  border: 2px solid rgb(141, 140, 140);
+  text-align: center;
+  display: inline-block;
+  margin: 15px;
+}
+
+.rowContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
