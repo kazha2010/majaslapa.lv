@@ -181,3 +181,99 @@ a:hover{
 
 }
 A {text-decoration: none;} 
+
+
+/* center container in the middle */
+html {
+  display: grid;
+  min-height: 100%;
+}
+
+.slideshow-buttons {
+  top: 70%;
+  display: none;
+}
+
+.one, .two, .three, .four {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: $light;
+}
+
+.one {
+  left: 22%;
+}
+.two {
+  left: 27%;
+}
+.three {
+  left: 32%;
+}
+.four {
+  left: 37%;
+}
+
+.product {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  top: 10%;
+  left: 60%;
+}
+
+.desc {
+  text-transform: none;
+  letter-spacing: 0;
+  margin-bottom: 17px;
+  color: $dark;
+  font-size: .7em;
+  line-height: 1.6em;
+  margin-right: 25px;
+  text-align: justify;
+}
+
+button {
+  background: darken($light, 10%);
+  padding: 10px;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  margin: -1px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $white;
+  cursor: pointer;
+
+.add {
+  width: 67%;
+}
+
+.like {
+  width: 22%;
+}
+
+.sizes {
+  display: grid;
+  color: $pink;
+  grid-template-columns: repeat(auto-fill, 30px);
+  width: 60%;
+  grid-gap: 4px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.pick {
+  margin-top: 11px;
+  margin-bottom:0;
+  margin-left: 20px;
+}
+
+.size {
+  padding: 9px;
+  border: 1px solid $light;
+  font-size: 0.7em;
+  text-align: center;
+}
