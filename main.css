@@ -57,6 +57,8 @@ b.pirmais {
     justify-content: center;
 }
 
+/*reglog lapas css*/
+
 /* Bordered form */
 form {
   border: 3px solid #f1f1f1;
@@ -104,8 +106,20 @@ a:hover{
   text-decoration: none;
 }
 -----------------------------------------------
+
+
+
 /*modal*/
-.wrapper {
+
+.wrapper1{
+  float:left;
+}
+.wrapper2{
+  float:left;
+  margin-left:20px;
+}
+.wrapper3{
+  float:right;
 }
 
 .wrapper a {
@@ -188,32 +202,6 @@ A {text-decoration: none;}
 html {
   display: grid;
   min-height: 100%;
-}
-
-.slideshow-buttons {
-  top: 70%;
-  display: none;
-}
-
-.one, .two, .three, .four {
-  position: absolute;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: $light;
-}
-
-.one {
-  left: 22%;
-}
-.two {
-  left: 27%;
-}
-.three {
-  left: 32%;
-}
-.four {
-  left: 37%;
 }
 
 .product {
