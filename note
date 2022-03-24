@@ -1,0 +1,17 @@
+/* aboliem */
+#trending {
+    margin-top: 100px;
+  }
+  
+  .review1 {
+    border: 2px solid rgb(141, 140, 140);
+    text-align: center;
+    display: inline-block;
+    margin: 15px;
+  }
+  
+  .rowContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
