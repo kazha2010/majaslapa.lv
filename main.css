@@ -22,7 +22,7 @@ h2.otrais {
   font-family: Helvetica;
   text-decoration: none; 
  background-color: none;
- color:rgb(255, 0, 0) ;
+ color:rgb(0, 0, 0) ;
  
 }
 h3.pirmais {
@@ -39,6 +39,7 @@ p.pirmais {
     font-family: Helvetica;
     font-weight: bold;
     text-decoration: none;
+    color:rgb(0, 0, 0);
 }
 b.pirmais {
   text-align: center;
@@ -172,3 +173,13 @@ a:hover{
 }
 
 A {text-decoration: none;} 
+
+
+/*aboli rindās*/
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  }

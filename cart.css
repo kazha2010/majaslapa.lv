@@ -5,7 +5,13 @@
   box-sizing: border-box;
 }
 
-html,
+h1.pirmais{
+  text-align: center;
+  font-size: 60px; 
+  font-family: Verdana;
+
+}
+
 
 body {
   width: 100%;
