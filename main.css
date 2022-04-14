@@ -18,6 +18,24 @@ h2.pirmais {
    color:rgb(0, 0, 0) ;
    
 }
+h2.ceturtais {
+  text-align: center;
+  font-size: 25px;
+  font-family: Helvetica;
+  text-decoration: none; 
+ background-color: none;
+ color:rgb(0, 0, 0) ;
+ 
+}
+h2.pirmais {
+  text-align: center;
+  font-size: 25px;
+  font-family: Helvetica;
+  text-decoration: none; 
+ background-color: none;
+ color:rgb(0, 0, 0) ;
+ 
+}
 h2.otrais {
   text-align: center;
   font-size: 25px;
@@ -36,6 +54,11 @@ h2.tresais {
  color:rgb(255, 0, 0) ;
  
 }
+
+h2.ceturtais:hover{
+  color:rgb(112, 110, 110);
+}
+
 h3.pirmais {
     text-align: center;
     font-size: 25px;
