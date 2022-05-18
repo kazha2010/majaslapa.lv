@@ -78,8 +78,7 @@
 <div class="div5"> </div>
 <div class="div6"> </div>
 </div>
-
-
+gatavs
 .parent {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
