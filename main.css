@@ -236,6 +236,7 @@ A {text-decoration: none;}
 /*aboli rindās*/
 .parent {
   display: grid;
+  place-items:  center;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 4px;
@@ -256,7 +257,7 @@ A {text-decoration: none;}
 .faktins{
   border: 2px solid  rgb(134, 134, 134);
 }
-/*parmums*/
+/*parmums netiek izmantots*/
 .section1{
 	background-color:#ffffff;
 	width:50%;
@@ -284,3 +285,9 @@ A {text-decoration: none;}
   margin-right: auto;
   width: 50%;
 }
+
+.footer {
+  border: 2px solid;
+  text-align: center;
+}
+
