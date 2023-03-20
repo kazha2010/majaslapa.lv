@@ -20,7 +20,7 @@
     </div>
   
     <div class="kaste">
-      <label for="post"><b class="pirmais">Omniva pakomāts uz kuru tiks nosūtīta prece</b></label>
+      <label for="post"><b class="pirmais">Atzīmē pakomātu, abolu skaitu un epastu </b></label>
       
       <select name="post" id="post" placeholder="Izvēlies pakomātu">
         <option value="1">Aizkraukles T/C Iga pakomāts</option>
@@ -63,8 +63,12 @@
      <b class="pirmais">Lūdzu ievadi ābolu skaitu</b>
       <input type="number" id="quantity" placeholder="Ābolu skaits" name="quantity" min="1" max="100">
       <br>
+      <form action="https://formsubmit.co/karlis.eglitis@marupe.edu.lv" method="POST">
+        <input type="text" name="email" placeholder="Epasts uz kuru tiks nosūtīta kvīts" required>
+        <button type="submit">Pirkt ābolu!</button>
+   </form>
   
-      <button type="submit">Pirkt ābolu!</button>
+
       <p class="pirmais">Vēlies turpināt iepirkties? <a href="index.html">Spied šeit!</a></p>
     </div>
   
